@@ -85,7 +85,7 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-source ~/.oh-my-zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-
+# Enable Plugins
+source ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 # z plugin (https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/z)
-. `brew --prefix`/etc/profile.d/z.sh
+. ~/.oh-my-zsh/plugins/z/z.sh
