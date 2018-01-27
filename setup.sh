@@ -8,4 +8,4 @@ git clone git://github.com/zsh-users/zsh-syntax-highlighting.git
 
 # copy .zshrc and activate
 cp .zshrc ~
-source ~.zshrc
+source ~/.zshrc
